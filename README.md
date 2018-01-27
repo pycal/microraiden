@@ -92,7 +92,8 @@ pip install microraiden
 Note that while the `RaidenMicroTransferChannels` contract supports multiple open channels between a sender and a receiver, the WebUI component only supports one.
 
 ```
-cd microraiden/microraiden/webui/microraiden
+git clone https://github.com/raiden-network/microraiden.git
+cd microraiden/microraiden/microraiden/webui/microraiden
 npm i && npm run build
 ```
 
